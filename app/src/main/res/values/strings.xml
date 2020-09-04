@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">TextEye</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Денис Сизов</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Меню</string>
+    <string name="menu_recent">Недавние</string>
+    <string name="menu_favourite">Помеченные</string>
+    <string name="menu_setting">Настройки</string>
+    <string name="menu_question">Справка</string>
+    <string name="menu_about">О нас</string>
+
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="emailSignIn">emailSignIn</string>
+    <string name="emailCreateAccount">emailCreateAccount</string>
+    <string name="signOut">signOut</string>
+    <string name="verifyEmail">verifyEmail</string>
+
+    <string name="dialog_message">Выбрать фото из галереи или сделать фото?</string>
+    <string name="dialog_title">Выбор</string>
+    <string-array name="variant_array">
+        <item>Галерея</item>
+        <item>Камера</item>
+    </string-array>
+
+    <string name="sCreate">onCreate</string>
+    <string name="sStop">onStop</string>
+    <string name="sPause">onPause</string>
+    <string name="sResume">onResume</string>
+    <string name="sStart">onStart</string>
+    <string name="sDestroy">onDestroy</string>
+    <string name="sSaveInstanceState">sSaveInstanceState</string>
+    <string name="sResumeInstanceState">onResumeInstanceState</string>
+
+    <string name="auth">auth</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+</resources>

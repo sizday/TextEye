@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.texteye.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.texteye.ui.gallery.GalleryFragment"
+        android:label="@string/menu_recent"
+        tools:layout="@layout/fragment_recent" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.texteye.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_favourite"
+        tools:layout="@layout/fragment_favourite" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.texteye.ui.tools.ToolsFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.texteye.ui.share.ShareFragment"
+        android:label="@string/menu_question"
+        tools:layout="@layout/fragment_question" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.texteye.ui.send.SendFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

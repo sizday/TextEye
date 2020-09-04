@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "414334086793",
+    "firebase_url": "https://texteye-a4a38.firebaseio.com",
+    "project_id": "texteye-a4a38",
+    "storage_bucket": "texteye-a4a38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414334086793:android:8b27503f2293538a5a6058",
+        "android_client_info": {
+          "package_name": "com.example.texteye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414334086793-killqr8o2c67ngit7fvotukfsf252491.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.texteye",
+            "certificate_hash": "9fc034404895a0e5c8873a7ddbe3e412aa694cde"
+          }
+        },
+        {
+          "client_id": "414334086793-13u3ljpc40fhc9dohria2nt7eedaoi1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkTTCkoNrJK8IB3PwO_p84titcgj5u_rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414334086793-13u3ljpc40fhc9dohria2nt7eedaoi1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
